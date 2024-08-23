@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  position: relative;
+}
+.bg-shade {
+  width: 100vw;
+  position: absolute;
+  top: -200px;
+  left: -200px;
+  z-index: -1;
+}
+.bg-img {
+  position: absolute;
+  top: -24px;
+  right: 0;
+  /* width: 400px;
+  height: 550px; */
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+nav {
+  padding-top: 24px;
+  margin-bottom: 98px;
+}
+header {
+  margin-bottom: 300px;
+}
+h1 {
+  width: 900px;
+  font-size: 4.6rem;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+.head-para {
+  width: 650px;
+}
+
+/* section  */
+
+.black-box {
+  width: 1300px;
+  height: 600px;
+  background-color: #191826;
+  position: relative;
+  margin-bottom: 150px;
+}
+.bg--img {
+  /* display: none; */
+  margin-left: 400px;
+  z-index: -1;
+}
+.phn-img {
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  top: -200px;
+  left: 178px;
+  /* margin-left: 150px;
+  margin-top: -700px; */
+}
+.premium-card {
+  width: 400px;
+  height: 500px;
+  background-color: #fa7453;
+  color: #fff;
+  padding: 48px 32px;
+  border-radius: 11px;
+  position: absolute;
+  top: 150px;
+  right: 220px;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 19px;
+  color: #fcfaf9;
+}
+.card-summary {
+  color: #fcfaf9;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.plan-price {
+  color: #fcfaf9;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 24px;
+}
+.price {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.btn {
+  width: 333px;
+  height: 60px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 11px;
+}
+.apple-btn {
+  background-color: #191826;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.android-btn {
+  background-color: #fcfaf9;
+}
+.btn-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+
+/* footer sec */
+
+.footer-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.contact {
+  display: flex;
+  gap: 80px;
+  /* flex-direction: column; */
+}
+.foot-icon {
+  margin-left: 9px;
+}
+.icon {
+  cursor: pointer;
+}
